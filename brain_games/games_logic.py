@@ -13,7 +13,8 @@ def play(module):
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
         if answer_true != user_answer.lower():
-            print(f'{user_answer} is wrong answer;(.Correct answer was {answer_true}')
+            print(f'{user_answer} is wrong'
+                  f' answer;(.Correct answer was {answer_true}')
             print(f"Let's try again, {name}!")
             break
         else:
