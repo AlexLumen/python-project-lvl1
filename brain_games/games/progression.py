@@ -10,7 +10,8 @@ def prepare_question_and_calculate():
     for _ in range(10):
         progression_list.append(str(number))
         number += iterator
-    elem_for_replace = progression_list[random.randint(1, len(progression_list))]
+    elem_for_replace = \
+        progression_list[random.randint(1, len(progression_list))]
     for (index, elem) in enumerate(progression_list):
         if progression_list[index] == elem_for_replace:
             progression_list[index] = '..'
