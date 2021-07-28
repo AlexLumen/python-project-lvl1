@@ -15,5 +15,5 @@ def prepare_question_and_calculate():
         quotient = numerator % denominator
     nod = denominator
     true_answer = str(nod)
-    question = (str(first_number), str(second_number))
+    question = (str(first_number), ' ', str(second_number))
     return true_answer, question
