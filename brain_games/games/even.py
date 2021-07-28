@@ -1,5 +1,3 @@
-import random
-
 from brain_games.games_logic import generate_number
 
 RULES = "Answer 'YES' if number even otherwise answer 'NO'."

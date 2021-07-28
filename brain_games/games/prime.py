@@ -1,5 +1,3 @@
-import random
-
 from brain_games.games_logic import generate_number
 
 RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'

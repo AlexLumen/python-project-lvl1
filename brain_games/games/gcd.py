@@ -1,5 +1,3 @@
-import random
-
 from brain_games.games_logic import generate_number
 
 RULES = "Find the greatest common divisor of given numbers."
