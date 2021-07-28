@@ -1,13 +1,15 @@
 import random
 
+from brain_games.games_logic import generate_number
+
 RULES = "What is the result of the expression?"
 
 
 def prepare_question_and_calculate():
     operations = ["+", "-", "*"]
-    number_first = random.randint(1, 10)
+    number_first = generate_number()
     first_number = number_first
-    number_two = random.randint(1, 10)
+    number_two = generate_number()
     two_number = number_two
     operation = random.choice(operations)
     operator = operation

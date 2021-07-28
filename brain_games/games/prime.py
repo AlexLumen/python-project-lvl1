@@ -1,10 +1,12 @@
 import random
 
+from brain_games.games_logic import generate_number
+
 RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def prepare_question_and_calculate():
-    number = random.randint(1, 100)
+    number = generate_number()
     count = 0
     question = str(number)
     for i in range(1, number + 1):

@@ -1,12 +1,14 @@
 import random
 
+from brain_games.games_logic import generate_number
+
 RULES = "What number is missing in the progression?"
 
 
 def prepare_question_and_calculate():
     progression_list = []
-    number = random.randint(1, 20)
-    iterator = random.randint(1, 10)
+    number = generate_number()
+    iterator = generate_number()
     for _ in range(10):
         progression_list.append(str(number))
         number += iterator

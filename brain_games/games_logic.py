@@ -1,7 +1,18 @@
 #!/usr/bin/env python
 import prompt
+from random import randint
 
-from brain_games.hello_user import hello_user
+
+def hello_user():
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name?')
+    print(f'Hello, {name}!')
+    return name
+
+
+def generate_number():
+    """Return random number from range."""
+    return randint(1, 100)
 
 
 def play(module):
