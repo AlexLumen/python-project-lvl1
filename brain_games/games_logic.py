@@ -11,7 +11,6 @@ def hello_user():
 
 
 def generate_number():
-    """Return random number from range."""
     return randint(1, 100)
 
 
