@@ -1,6 +1,6 @@
 import random
 
-rules = "What number is missing in the progression?"
+RULES = "What number is missing in the progression?"
 
 
 def prepare_question_and_calculate():

@@ -1,6 +1,6 @@
 import random
 
-rules = "What is the result of the expression?"
+RULES = "What is the result of the expression?"
 
 
 def prepare_question_and_calculate():

@@ -1,6 +1,6 @@
 import random
 
-rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def prepare_question_and_calculate():

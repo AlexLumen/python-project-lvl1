@@ -6,7 +6,7 @@ from brain_games.hello_user import hello_user
 
 def play(module):
     name = hello_user()
-    print(module.rules)
+    print(module.RULES)
     count = 0
     while count != 3:
         answer_true, question = module.prepare_question_and_calculate()

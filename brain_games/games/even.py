@@ -1,6 +1,6 @@
 import random
 
-rules = "Answer 'YES' if number even otherwise answer 'NO'."
+RULES = "Answer 'YES' if number even otherwise answer 'NO'."
 
 
 def prepare_question_and_calculate():

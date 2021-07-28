@@ -1,6 +1,6 @@
 import random
 
-rules = "Find the greatest common divisor of given numbers."
+RULES = "Find the greatest common divisor of given numbers."
 
 
 def prepare_question_and_calculate():
