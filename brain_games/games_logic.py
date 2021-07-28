@@ -5,9 +5,9 @@ from random import randint
 
 def hello_user():
     print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name?')
-    print(f'Hello, {name}!')
-    return name
+    user_name = prompt.string('May I have your name?')
+    print(f'Hello, {user_name}!')
+    return user_name
 
 
 def generate_number():
