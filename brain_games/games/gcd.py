@@ -6,6 +6,7 @@ RULES = "Find the greatest common divisor of given numbers."
 def prepare_question_and_calculate():
     first_number = generate_number()
     second_number = generate_number()
+    question = f'{first_number} {second_number}'
     numerator = max(first_number, second_number)
     denominator = min(first_number, second_number)
     quotient = numerator % denominator
@@ -15,5 +16,4 @@ def prepare_question_and_calculate():
         quotient = numerator % denominator
     nod = denominator
     true_answer = str(nod)
-    question = (str(first_number), str(second_number))
     return true_answer, question
